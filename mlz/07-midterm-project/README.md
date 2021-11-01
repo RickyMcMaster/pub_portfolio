@@ -19,4 +19,6 @@ Files included are as follows:
 * Dockerfile - uses the aforementioned pipfile and exposes port 9696 for the webservice (using Flask)
     * Build & Run this with: 
         ```docker build -t resignation-model .
-        docker run -it -p 9696:9696 --rm resignation-model```
+        ```
+        ```docker run -it -p 9696:9696 --rm resignation-model
+        ```
