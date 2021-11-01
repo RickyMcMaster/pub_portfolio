@@ -8,7 +8,7 @@ I decided upon this because first of all I found it relatable in light of what w
 
 The data in the dataset relates to a ten-year period in the history of a fictional company, with one row per year for each employee (though of course, some have an employment history a lot shorter than 10 years).
 
-The goal of the project will be therefore to train a model on this data, and use it to predict whether or not an employee is likely to churn when new customer information is provided.  This information can be provided via a json file - I have included a test json file for this purpose.
+The goal of the project will be therefore to train a model on this data, and use it to predict whether or not an employee is likely to resign when new customer information is provided.  This information can be provided via a json file - I have included a test json file for this purpose.
 
 Files included are as follows:
 
@@ -18,5 +18,5 @@ Files included are as follows:
 * Pipfile which includes necessary libraries for the model
 * Dockerfile - uses the aforementioned pipfile and exposes port 9696 for the webservice (using Flask)
     * Build & Run this with: 
-        docker build -t resignation-model .
-        docker run -it -p 9696:9696 --rm resignation-model 
+        ```docker build -t resignation-model .
+        docker run -it -p 9696:9696 --rm resignation-model```
