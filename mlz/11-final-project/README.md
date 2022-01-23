@@ -1,6 +1,10 @@
 ## Machine Learning Zoomcamp Final Project - R McMaster
 
+This project is based on a house price dataset I found on Kaggle: https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview/description
 
+It has 79 features so this seemed promising in terms of data richness.
+
+Please see the data_description.txt which I copied for referende - however, I have developed the file a bit further as you will see in the notebook.
 
 Files included are as follows:
 
