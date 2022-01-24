@@ -4,7 +4,7 @@ This project is based on a house price dataset I found on Kaggle: https://www.ka
 
 It has 79 features so this seemed promising in terms of data richness.
 
-Please see the data_description.txt which I copied for referende - however, I have developed the file a bit further as you will see in the notebook.
+Please see the data_description.txt which I copied from the contest for reference - however, I have developed the file a bit further as you will see in the notebook.
 
 Files included are as follows:
 
@@ -15,7 +15,7 @@ Files included are as follows:
 * Dockerfile - uses the aforementioned pipfile and exposes port 9696 for the webservice (using Flask)
     * Build & Run this with: 
         ```bash
-        docker build -t resignation-model .
+        docker build -t houses-model .
         ```
         ```bash
         docker run -it -p 9696:9696 --rm houses-model
