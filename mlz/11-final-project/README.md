@@ -4,7 +4,7 @@ This project is based on a house price dataset I found on Kaggle: https://www.ka
 
 It has 79 features so this seemed promising in terms of data richness.
 
-Please see the data_description.txt which I copied for reference - however, I have developed the file a bit further as you will see in the notebook.
+Please see the data_description.txt which I copied from the contest for reference - however, I have developed the file a bit further as you will see in the notebook.
 
 Files included are as follows:
 
