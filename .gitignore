@@ -113,3 +113,10 @@ dmypy.json
 # Pyre type checker
 .pyre/
 mlz/.DS_Store
+
+
+# misc file types
+*.jpg
+
+# Specific directories
+/Users/rmcmaster/Documents/git_repos/pub_portfolio/mlz/07-midterm-project/midterm_peer_review
